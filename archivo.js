@@ -42,5 +42,31 @@ document.write(saludo)
 document.write('<br>');
 document.write('===================<br>');
 document.write(nombre,' ', apellido);
-
+document.write('<br>');
+document.write('<br>');
 /* para comentar multiples lineas / bloques de codigo */
+
+
+document.write('==========CAPTURA DE DATOS=========<br>');
+// let NOMBRE, EDAD, DIRECCION, TELEFONO;
+
+// NOMBRE = prompt('Ingrese su nombre...');
+// EDAD = prompt('Ingrese su edad...');
+// DIRECCION = prompt('Ingrese su direccion...');
+// TELEFONO = prompt('Ingrese un numero de telefono...');
+
+// document.write('Nombre: ',NOMBRE);
+// document.write('<br>');
+// document.write('Edad: ',EDAD);
+// document.write('<br>');
+// document.write('Direccion: ',DIRECCION);
+// document.write('<br>');
+// document.write('Telefono: ',TELEFONO);
+document.write('<br>');
+document.write('<br>');
+
+
+document.write('==========CONSTANTES=========<br>');
+const PRECIO = 200;
+
+document.write('Precio constante: ',PRECIO);
