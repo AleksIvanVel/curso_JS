@@ -70,3 +70,45 @@ document.write('==========CONSTANTES=========<br>');
 const PRECIO = 200;
 
 document.write('Precio constante: ',PRECIO);
+
+
+document.write('<br>');
+document.write('<br>');
+
+document.write('==========OPERADORES MATEMATICOS=========<br>');
+
+let a,b,sum,rest,mult,div,resid,poten;
+
+//pedimos datos al usuario
+a=parseInt(prompt('ingrese el valor 1...'));
+b=parseInt(prompt('ingrese el valor 2...'));
+
+//suma
+sum= a+b;
+
+//diferencia
+rest= a-b;
+
+//producto
+mult= a*b;
+
+//cociente
+div= a/b;
+
+//residuo
+resid= a % b;
+
+//potencia
+poten= a**b;
+
+document.write('la suma es: ', sum);
+document.write('<br>');
+document.write('la diferencia es: ', rest);
+document.write('<br>');
+document.write('el producto es: ', mult);
+document.write('<br>');
+document.write('el cociente es: ', div);
+document.write('<br>');
+document.write('el residuo es es: ', resid);
+document.write('<br>');
+document.write('la potencia es: ', poten);
